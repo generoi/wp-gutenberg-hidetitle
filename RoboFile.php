@@ -9,11 +9,11 @@ class RoboFile extends \Robo\Tasks
     use \Generoi\Robo\Task\Placeholder\loadTasks;
     use \Generoi\Robo\Command\SearchReplaceCommand;
 
-    public $machineName = 'wp-gutenberg-templates';
-    public $name = 'Gutenberg Templates';
-    public $namespace = 'Templates';
-    public $description = 'Add page template support to Gutenberg';
-    public $blockName = 'templates';
+    public $machineName = 'wp-gutenberg-backgrounds';
+    public $name = 'Gutenberg Backgrounds for Blocks';
+    public $namespace = 'Backgrounds';
+    public $description = 'Add a background option to every Gutenberg block';
+    public $blockName = 'background';
 
     public function rename($machineName = null, $options = [
         'force' => false,
@@ -44,7 +44,6 @@ class RoboFile extends \Robo\Tasks
         }
 
         $result = $this->taskPlaceholderFind("$this->machineName|$this->name|$this->namespace|$this->description|$this->blockName")
-            ->directories(['src'])
             ->io($this->io())
             ->run();
 

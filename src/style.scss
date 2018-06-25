@@ -1,0 +1,12 @@
+.edit-post-hidetitle {
+  flex-direction: column;
+
+  .components-base-control,
+  .components-base-control__field {
+    width: 100%;
+  }
+
+  .components-base-control {
+    margin-bottom: 0.5rem;
+  }
+}
