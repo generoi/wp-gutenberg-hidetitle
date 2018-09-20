@@ -2,7 +2,8 @@
  * WordPress Dependencies
  */
 import { __ } from '@wordpress/i18n';
-import { Fragment, compose } from '@wordpress/element';
+import { Fragment } from '@wordpress/element';
+import { compose } from '@wordpress/compose';
 import { withSelect, withDispatch } from '@wordpress/data';
 import { PluginPostStatusInfo } from '@wordpress/editPost';
 import { ToggleControl } from '@wordpress/components';

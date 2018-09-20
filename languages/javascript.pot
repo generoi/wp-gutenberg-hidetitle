@@ -3,10 +3,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "X-Generator: babel-plugin-makepot\n"
 
-#: src/component.js:16
+#: src/component.js:17
 msgid "Hide title"
 msgstr ""
 
-#: src/component.js:21
+#: src/component.js:22
 msgid "Remember to add a H1 manually to rank well in search engines."
 msgstr ""
